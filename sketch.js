@@ -6,6 +6,9 @@ function run(url){
     document.getElementById("typewriter").style.visibility = "visible";
     var snd = new Audio("ddancer.mp3");
     snd.play()
+    document.getElementById('button').style.display = "none";
+
+
 }
 
 
